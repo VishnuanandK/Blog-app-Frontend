@@ -1,0 +1,30 @@
+.landing{
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://img.freepik.com/free-photo/aerial-view-man-working-computer_53876-31625.jpg?w=1060&t=st=1707711316~exp=1707711916~hmac=b567f57e022ba16cf8a181d49e50bbd7988300d01a9dd67ca3ddf7f18d72e7e6");
+    background-size: cover;
+  }
+  .landingTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', serif;
+    color: #000000;
+}
+.landingTitleSm{
+    position: absolute;
+    top: 18%;
+    font-size: 30px;
+}
+.landingTitleLg{
+    position: absolute;
+    top: 20%;
+    font-size: 120px;
+}
